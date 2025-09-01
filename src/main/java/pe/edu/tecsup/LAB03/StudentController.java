@@ -6,4 +6,9 @@ public class StudentController {
     public String initStudents() {
         return "Estudiantes inicializados ✅";
     }
+
+    // 👤 Usuario 3: Buscar por ID
+    public String getStudentById(int id) {
+        return "Mostrando estudiante con ID: " + id;
+    }
 }
